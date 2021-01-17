@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061468"
+    android:orientation="vertical"
+    tools:context=".firstAktivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Memory GAME"
+            android:textColor="#fff"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3X2"
+            android:textSize="50sp"
+            android:layout_weight="0"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:background="@drawable/btnstylemenu"/>
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3X4"
+            android:textSize="50sp"
+            android:layout_weight="0"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:background="@drawable/btnstylemenu"/>
+
+        <Button
+            android:id="@+id/btn_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4X4"
+            android:textSize="50sp"
+            android:layout_weight="0"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:background="@drawable/btnstylemenu"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
